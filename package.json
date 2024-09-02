@@ -1,0 +1,61 @@
+{
+    "name": "func-package",
+    "version": "0.0.7",
+    "title": "func-package",
+    "description": "前端工具集",
+    "author": "JIAOXIAOYUAN",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "keywords": [
+        "utils",
+        "前端工具类",
+        "typescript"
+    ],
+    "scripts": {
+        "start": "dumi dev",
+        "dev": "export NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
+        "docs": "export NODE_OPTIONS=--openssl-legacy-provider && dumi build",
+        "build:docs": "export NODE_OPTIONS=--openssl-legacy-provider && rm -rf dist.tar.gz dist || true && dumi build && tar czvf dist.tar.gz funct-dist",
+        "build": "father-build",
+        "release": "npm run build && npm publish --access public",
+        "prebuild": "rm -rf dist.tar.gz dist || true",
+        "clean": "npm cache clean --force"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.18.9",
+        "lodash.clonedeep": "^4.5.0",
+        "lodash.difference": "^4.5.0",
+        "nanoid": "^3.1.30",
+        "qs": "^6.10.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.1",
+        "@types/lodash.clonedeep": "^4.5.6",
+        "@types/lodash.difference": "^4.5.7",
+        "@types/qs": "^6.9.7",
+        "@umijs/test": "^4.2.8",
+        "antd": "^5.18.0",
+        "babel-plugin-import": "^1.13.3",
+        "dumi": "^1.1.20",
+        "father-build": "^1.22.5"
+    },
+    "publicConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://gitee.com/NativeBase/func-package/tree/master/packages/func"
+    },
+    "bugs": {
+        "url": "https://gitee.com/NativeBase/func-package/issues"
+    },
+    "volta": {
+        "node": "16.19.1",
+        "yarn": "1.14.0"
+    }
+}
