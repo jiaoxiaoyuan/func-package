@@ -1,6 +1,6 @@
 ---
 title: prettierrc.js配置文件
-order: 14
+order: 16
 nav:
   title: 文档
   path: /other
