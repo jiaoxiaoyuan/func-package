@@ -1,6 +1,6 @@
 ---
 title: IDEA 快捷键
-order: 2
+order: 1
 nav:
   title: 文档
   path: /other
