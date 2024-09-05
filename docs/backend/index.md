@@ -1,5 +1,5 @@
 ---
-title: IDEA 快捷键
+title: 基础
 order: 1
 nav:
   title: 后端服务
