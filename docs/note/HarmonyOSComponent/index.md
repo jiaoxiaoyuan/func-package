@@ -4,6 +4,7 @@ order: 1
 nav:
   title: 鸿蒙
   path: /HarmonyOS
+  order: 9
 group:
   path: /Component
   title: 组件

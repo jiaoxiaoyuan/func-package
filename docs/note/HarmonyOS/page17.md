@@ -4,6 +4,7 @@ order: 17
 nav:
   title: 鸿蒙
   path: /HarmonyOS
+  order: 9
 group:
   path: /ArkTS
   title: 基础
