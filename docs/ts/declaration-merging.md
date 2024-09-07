@@ -4,7 +4,7 @@ order: 11
 nav:
     title: TypeScript
     path: /ts
-    order: 5
+    order: 3
 group:
   path: /basic-concept
   title: 基础语法

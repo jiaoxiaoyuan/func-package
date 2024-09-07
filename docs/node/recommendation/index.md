@@ -4,7 +4,7 @@ order: 100
 nav:
     title: Node系列
     path: /node
-    order: 5
+    order: 6
 group:
   title: 社区
   path: /awesome

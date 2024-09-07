@@ -4,7 +4,7 @@ order: 3
 nav:
     title: JavaScript
     path: /js
-    order: 5
+    order: 2
 
 group:
   path: /basic-concept

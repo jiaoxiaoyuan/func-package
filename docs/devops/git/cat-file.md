@@ -2,7 +2,7 @@
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 title: 查询 git cat-file
 order: 27
 

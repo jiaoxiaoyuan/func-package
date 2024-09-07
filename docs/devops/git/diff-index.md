@@ -2,7 +2,7 @@
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 title: 差异索引 diff-index
 order: 31
 

@@ -2,7 +2,7 @@
 nav:
     title: Vue系列
     path: /vue
-    order: 5
+    order: 4
 group:
     path: /front_end
     title: 前置知识

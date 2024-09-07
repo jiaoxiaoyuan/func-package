@@ -2,7 +2,7 @@
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 title: 拉取 git pull
 order: 18
 

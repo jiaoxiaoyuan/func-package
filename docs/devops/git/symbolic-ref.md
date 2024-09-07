@@ -2,7 +2,7 @@
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 title: symbolic-ref
 order: 39
 

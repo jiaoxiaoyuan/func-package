@@ -4,7 +4,7 @@ order: 17
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 group:
   path: /Shell
   title: Shell

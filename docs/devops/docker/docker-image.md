@@ -4,7 +4,7 @@ order: 56
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 group:
   path: /docker
   title: docker

@@ -2,7 +2,7 @@
 nav:
     title: DevOps系列
     path: /DevOps
-    order: 5
+    order: 7
 title: 储藏 git stash
 order: 15
 

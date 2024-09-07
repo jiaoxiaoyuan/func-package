@@ -2,7 +2,7 @@
 nav:
     title: Node系列
     path: /node
-    order: 5
+    order: 6
 group:
   title: 模块机制
    path: /module

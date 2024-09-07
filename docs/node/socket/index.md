@@ -2,7 +2,7 @@
 nav:
     title: Node系列
     path: /node
-    order: 5
+    order: 6
 group:
     title: Socket
     path: /socket
