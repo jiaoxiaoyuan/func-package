@@ -9,7 +9,7 @@ group:
     order: 1    
 
 title: HTML 字符实体备忘清单
-order: 17
+order: 2
 ---
 
 HTML 字符实体备忘清单

@@ -8,7 +8,7 @@ nav:
 group:
   path: /basic-concept
   title: 基础语法
-  order: 1    
+  order: 2    
 ---
 
 # never 类型
