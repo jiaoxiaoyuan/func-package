@@ -2368,7 +2368,7 @@ export default function setExactTime(time: number, cb: () => void) {
 
 1. 在服务端通过**请求头** `Accept` 进行判断，如果有 `image/webp` 说明可以
 
-   ![img](./assets/v2-6a678030ff16df4c9154ab02d65ccbd0_720w-6485772.webp)
+   ![image-20240916212726153](./assets/image-20240916212726153.png)
 
 2. 使用 **canvas** 的 **toDataURL** 进行判断
 
