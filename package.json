@@ -49,7 +49,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://gitee.com/NativeBase/func-package/tree/master/packages/func"
+        "url": "https://gitee.com/NativeBase/func-package"
     },
     "bugs": {
         "url": "https://gitee.com/NativeBase/func-package/issues"

@@ -20,6 +20,18 @@ group:
 >
 > @returns 如果 `version1` 小于 `version2，返回` -1；如果 `version1` 大于 `version2`，返回 1；如果两者相等，返回 0
 
+## 使用
+```ts
+import { Versions } from 'func-package';
+
+
+// 你可以在这里添加一些调用示例来演示函数的使用
+console.log(Versions("1.0.0", "2.0.0")); // 应该输出 -1
+console.log(Versions("1.2.3-beta", "1.2.3-alpha")); // 应该输出 1
+console.log(Versions("1.0.0", "1.0.0-rc")); // 应该输出 -1
+
+```
+
 
 ## 源码
 
