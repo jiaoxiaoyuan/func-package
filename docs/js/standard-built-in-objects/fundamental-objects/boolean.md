@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 内置对象
-  order: 2
+    title: JavaScript
+    path: /js
+    order: 2
 group:
-  title: 其他基础对象
-  order: 7
+  title: 内置对象 - 其他基础对象
+  order: 8
 title: Boolean
 order: 1
 ---

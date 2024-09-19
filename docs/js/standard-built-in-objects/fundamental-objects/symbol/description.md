@@ -1,10 +1,12 @@
 ---
 nav:
-  title: 内置对象
-  order: 2
+    title: JavaScript
+    path: /js
+    order: 2
 group:
-  title: Symbol
-  order: 6
+  path: /fundamental-Symbol
+  title: 内置对象 - Symbol
+  order: 7
 title: Symbol.prototype.description
 order: 13
 ---

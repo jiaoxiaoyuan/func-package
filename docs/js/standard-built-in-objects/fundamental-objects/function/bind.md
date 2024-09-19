@@ -1,10 +1,12 @@
 ---
 nav:
-  title: 内置对象
-  order: 2
+    title: JavaScript
+    path: /js
+    order: 2
 group:
-  title: Function
-  order: 5
+  path: /fundamental-function
+  title: 内置对象 - Function
+  order: 6
 title: Function.prototype.bind
 order: 4
 ---
