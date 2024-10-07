@@ -7,7 +7,7 @@ nav:
     order: 5
 group:
   path: /basicbs
-  title: 基础
+  title: 备忘清单
   order: 50    
 ---
 
