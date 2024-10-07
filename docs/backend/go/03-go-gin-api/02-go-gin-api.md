@@ -18,7 +18,7 @@ group:
 
 首先同步下项目概况：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/2_api_1.png)
+![img](./assets/2_api_1.png)
 
 上篇文章分享了，使用 go modules 初始化项目，这篇文章咱们分享：
 

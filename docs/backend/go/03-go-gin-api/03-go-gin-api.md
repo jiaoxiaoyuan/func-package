@@ -18,7 +18,7 @@ group:
 
 首先同步下项目概况：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/3_api_1.png)
+![img](./assets/3_api_1.png)
 
 上篇文章分享了，规划项目目录和参数验证，其中参数验证使用的是 validator.v8 版本，现已更新到 validator.v9 版本，最新代码查看 github 即可。
 

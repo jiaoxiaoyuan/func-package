@@ -18,17 +18,17 @@ group:
 
 首先同步下项目概况：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/6_api_1.png)
+![img](./assets/6_api_1.png)
 
 上篇文章分享了，路由中间件 - Jaeger 链路追踪（理论篇），这篇文章咱们接着分享：路由中间件 - Jaeger 链路追踪（实战篇）。
 
 这篇文章，确实让大家久等了，主要是里面有一些技术点都是刚刚研究的，没有存货。
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/6_api_6.png)
+
 
 先看下咱们要实现的东西：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/6_api_2.png)
+![img](./assets/6_api_2.png)
 
 API 调用了 5 个服务，其中 4 个 gRPC 服务，1 个 HTTP 服务，服务与服务之间又相互调用：
 
@@ -69,7 +69,7 @@ OK，开整。
 
 http://127.0.0.1:16686/
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/6_api_3.png)
+![img](./assets/6_api_3.png)
 
 到这，Jaeger 已经部署成功了。
 
@@ -268,9 +268,9 @@ http://127.0.0.1:9999/jaeger_test
 
 ## 效果
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/6_api_4.png)
+![img](./assets/6_api_4.png)
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/6_api_5.png)
+![img](./assets/6_api_5.png)
 
 就到这吧。
 

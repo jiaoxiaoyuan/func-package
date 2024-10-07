@@ -18,7 +18,7 @@ group:
 
 首先同步下项目概况：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_1.png)
+![img](./assets/5_api_1.png)
 
 上篇文章分享了，路由中间件 - 捕获异常，这篇文章咱们分享：路由中间件 - Jaeger 链路追踪。
 
@@ -28,15 +28,15 @@ group:
 
 咱们先看一张图：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_2.png)
+![img](./assets/5_api_2.png)
 
 这张图的调用链还比较清晰，咱们想象一下，随着服务的越来越多，服务与服务之间调用关系也越来越多，可能就会发展成下图的情况。
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_3.png)
+![img](./assets/5_api_3.png)
 
 这调用关系真的是... 看到这，我的内心是崩溃的。
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_4.jpeg)
+![img](./assets/5_api_4.jpeg)
 
 那么问题来了，这种情况下怎么快速定位问题？
 
@@ -72,7 +72,7 @@ func SetUp() gin.HandlerFunc {
 
 问题又来了，每次调用都记录日志，当调用的服务过多时，频繁的记录日志，就会有性能问题呀，肿么办？
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_5.jpeg)
+![img](./assets/5_api_5.jpeg)
 
 哎，这么麻烦，看看市面上有没有一些开源工具呢？
 
@@ -92,7 +92,7 @@ func SetUp() gin.HandlerFunc {
 
 ## Jaeger 架构图
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_6.png)
+![img](./assets/5_api_6.png)
 
 图片来源于官网。
 
@@ -114,13 +114,13 @@ Query服务会从存储中检索Trace并通过UI界面进行展现，该UI界面
 
 ## Jaeger Span
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_7.png)
+![img](./assets/5_api_7.png)
 
 图片来源于官网。
 
 怎么操作 Span 呢？Span 有哪些可以调用的 API ？
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_8.png)
+![img](./assets/5_api_8.png)
 
 ## Jaeger 部署
 
@@ -198,7 +198,7 @@ Query服务会从存储中检索Trace并通过UI界面进行展现，该UI界面
 
 看到这，说的都是理论，大家的心里话可能是：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_9.jpg)
+
 
 ## 实战
 
@@ -206,7 +206,7 @@ Query服务会从存储中检索Trace并通过UI界面进行展现，该UI界面
 - Jaeger 在 Gin 中使用
 - Jaeger 在 gRPC 中使用
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/5_api_10.jpeg)
+
 
 关于实战的分享，我准备整理出 4 个服务，然后实现服务与服务之间进行相互调用，目前 Demo 还没写完...
 

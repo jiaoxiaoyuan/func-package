@@ -20,11 +20,11 @@ group:
 
 首先同步下项目概况：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/4_api_1.png)
+![img](./assets/4_api_1.png)
 
 上篇文章分享了，路由中间件 - 日志记录，这篇文章咱们分享：路由中间件 - 捕获异常。当系统发生异常时，提示 “系统异常，请联系管理员！”，同时并发送 panic 告警邮件。
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/4_api_2.png)
+![img](./assets/4_api_2.png)
 
 ## 什么是异常？
 
@@ -142,7 +142,7 @@ func SendMail(mailTo string, subject string, body string) error {
 
 如图：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/4_api_3.png)
+![img](./assets/4_api_3.png)
 
 这就是告警邮件的模板，还不错吧，大家还想记录什么，可以自定义去修改。
 
@@ -196,13 +196,13 @@ func SetUp() gin.HandlerFunc {
 
 同时，还会收到一封 panic 告警邮件。
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/4_api_4.png)
+![img](./assets/4_api_4.png)
 
 便于截图，DebugStack 删减了一些信息。
 
 到这，就结束了。
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/4_api_5.jpeg)
+![img](./assets/4_api_5.jpeg)
 
 ## 备注
 

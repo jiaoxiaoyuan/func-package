@@ -20,7 +20,7 @@ group:
 
 为什么是开箱即用，它会集成哪些功能？
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/1_api_1.png)
+![img](https://github.com/xinliangnote/Go/raw/master/03-go-gin-api%20%5B%E6%96%87%E6%A1%A3%5D/images/1_api_1.png)
 
 以上功能点，都是常用的，后期可能还会增加。
 
@@ -117,7 +117,7 @@ require github.com/gin-gonic/gin v1.4.0
 
 在这里编辑器需要设置一下，如图：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/1_api_2.png)
+![img](./assets/1_api_2.png)
 
 点击 Apply 和 OK 即可。
 
@@ -170,5 +170,4 @@ go mod vendor
 ## 源码地址
 
 https://github.com/xinliangnote/go-gin-api
-
 

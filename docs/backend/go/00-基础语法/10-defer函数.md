@@ -42,7 +42,7 @@ func main() {
 
 ...
 
-![](https://github.com/xinliangnote/Go/blob/master/00-基础语法/images/10_go_1.jpeg)
+![img](./assets/10_go_1.jpeg)
 
 接下来，先容我分享几个小例子，再进行作答。
 

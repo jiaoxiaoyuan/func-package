@@ -22,7 +22,7 @@ group:
 
 当我们在写 HTTP 接口的时候，使用的是 Postman 进行接口调试，那么在写 gRPC 接口的时候，有没有类似于 Postman 的调试工具呢？
 
-![](https://github.com/xinliangnote/Go/blob/master/02-Go%20gRPC/images/2_grpc_1.gif)
+![img](https://github.com/xinliangnote/Go/raw/master/02-Go%20gRPC/images/2_grpc_1.gif)
 
 
 这是有的。
@@ -147,7 +147,7 @@ gRPC Web UI available at http://127.0.0.1:63027/
 
 在浏览器中访问：`http://127.0.0.1:63027/`
 
-![](https://github.com/xinliangnote/Go/blob/master/02-Go%20gRPC/images/2_grpc_2.gif)
+![img](https://github.com/xinliangnote/Go/raw/master/02-Go%20gRPC/images/2_grpc_2.gif)
 
 到这，我们看到 Service name、Method name 都出来了，传输参数直接在页面上进行操作即可。
 

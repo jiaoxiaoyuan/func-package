@@ -18,11 +18,11 @@ group:
 
 首先同步下项目概况：
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/7_api_1.png)
+![img](./assets/7_api_1.png)
 
 上篇文章分享了，路由中间件 - Jaeger 链路追踪（实战篇），文章反响真是出乎意料， 「Go中国」 公众号也转发了，有很多朋友加我好友交流，直呼我大神，其实我哪是什么大神，只不过在本地实践了而已，对于 Go 语言的使用，我还是个新人，在这里感谢大家的厚爱！
 
-![](https://github.com/xinliangnote/Go/blob/master/03-go-gin-api%20%5B文档%5D/images/7_api_2.gif)
+
 
 这篇文章咱们分享：路由中间件 - 签名验证。
 

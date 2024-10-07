@@ -54,7 +54,7 @@ func main() {
 ```
 运行结果：
 
-![](https://github.com/xinliangnote/Go/blob/master/00-基础语法/images/05-结构体/5_go_1.png)
+![img](./assets/5_go_1.png)
 
 ## 生成 JSON
 
@@ -95,7 +95,7 @@ func main() {
 ```
 运行结果：
 
-![](https://github.com/xinliangnote/Go/blob/master/00-基础语法/images/05-结构体/5_go_2.png)
+![img](./assets/5_go_2.png)
 
 ## 改变数据
 
@@ -139,4 +139,4 @@ func toJson (res *Result) {
 
 运行结果：
 
-![](https://github.com/xinliangnote/Go/blob/master/00-基础语法/images/05-结构体/5_go_3.png)
+![img](./assets/5_go_3.png)
