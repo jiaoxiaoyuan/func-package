@@ -32,4 +32,4 @@ const cloneElement = React.cloneElement(element, props, children);
 
 使用 `cloneElement()` 复制这个元素，并最终生前面示例中的 HTML。
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-cloneelement" />
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-cloneelement" /> -->

@@ -36,9 +36,6 @@ export function useState<S>(
 }
 ```
 
-<br />
-
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-usestate/index.tsx" />
 
 说明：
 
@@ -57,7 +54,8 @@ export function useState<S>(
 
 代码示例：
 
-<code src="../../../example/useState-functional-update/index.tsx" />
+
+
 
 如果你的更新函数返回值与当前 `state` 完全相同，则随后的重渲染会被完全跳过。
 
@@ -105,7 +103,7 @@ const [state, setState] = useState(() => {
 
 利用闭包，我们只要在这个模块中定义个变量，并且在函数组件中访问，那么闭包就有了。
 
-```tsx | pure
+```js
 export default function AsyncDemo() {
   const [param] = useState<Param>({});
   const [dataList, setDataList] = useState<ListItem[]>([]);

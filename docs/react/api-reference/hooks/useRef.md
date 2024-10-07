@@ -33,7 +33,9 @@ export function useRef<T>(initialValue: T): {|current: T|} {
 
 - `useRef` 返回一个可变的 `ref` 对象，其 `<ref>.current` 属性被初始化为传入的参数（`initialValue`）。返回的 `ref` 对象在组件的整个生命周期内保持不变。
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-useref/index.tsx" />
+
+
+
 
 本质上，`useRef` 就像是可以在其 `.current` 属性中保存一个可变值的“盒子”。
 

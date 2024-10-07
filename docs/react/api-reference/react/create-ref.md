@@ -34,9 +34,10 @@ export function createRef(): RefObject {
 }
 ```
 
-代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-createref" />
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-createref" /> -->
+
+
 
 使用 `React.createRef()` 给组件创建了 Refs 对象。在上面的示例中，`ref` 被命名 `inputRef`，然后将其附加到 `<input>` DOM 元素。
 

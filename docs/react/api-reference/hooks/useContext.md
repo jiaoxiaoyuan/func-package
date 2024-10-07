@@ -16,7 +16,7 @@ order: 3
 
 语法：
 
-```js
+```jsx
 const value = useContext(MyContext);
 ```
 
@@ -52,7 +52,7 @@ export function useContext<T>(Context: ReactContext<T>): T {
 }
 ```
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-usecontext/index.tsx" />
+
 
 说明：
 

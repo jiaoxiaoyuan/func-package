@@ -85,7 +85,9 @@ export function lazy<T>(
 
 代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-lazy" />
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-lazy" /> -->
+
+
 
 如代码所示，将静态引用组件的代码替换为调用 `React.lazy`，在 `React.lazy` 传入一个 <strong style="color:red">匿名函数</strong> 作为参数，在函数中动态引入 `LazyComponent` 组件。这样在我们渲染这个组件前，浏览器将不会下载 `LazyComponent.bundle.js` 文件和它的依赖。其中，`import` 内的 `webpackChunkName` 为我们定义的 `bundle` 文件名。
 

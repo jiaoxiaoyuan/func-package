@@ -60,7 +60,9 @@ export default React.memo(MyComponent, areEqual);
 
 <br/>
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-memo" />
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-memo" /> -->
+
+
 
 说明：
 

@@ -58,7 +58,9 @@ ForwardRef API 充当传递者角色，实际上是容器组件，能够辅助�
 
 代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-forwardref-dom" />
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-forwardref-dom" /> -->
+
+
 
 ⚠️ **注意**：
 
@@ -69,4 +71,5 @@ ForwardRef API 充当传递者角色，实际上是容器组件，能够辅助�
 
 常在高阶组件中使用 `React.forwardRef`
 
-<code src="../../../example/forwardRef-hoc/index.tsx" />
+<!-- <code src="../../../example/forwardRef-hoc/index.tsx" /> -->
+

@@ -35,9 +35,8 @@ export function useReducer<S, I, A>(
 }
 ```
 
-<br />
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-usereducer/index.tsx" />
+
 
 说明：
 
@@ -55,7 +54,8 @@ export function useReducer<S, I, A>(
 
 这么做可以将用于计算 `state` 的逻辑提取到 `reducer` 外部，这也为将来对重置 `state` 的 `action` 做处理提供了便利：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-usereducer-lazy-initialize/index.tsx" />
+
+
 
 ### 跳过 dispatch
 

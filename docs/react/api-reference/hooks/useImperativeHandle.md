@@ -35,8 +35,6 @@ export function useImperativeHandle<T>(
 }
 ```
 
-代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-useimperativehandle/index.tsx" />
 
 ## 最佳实践

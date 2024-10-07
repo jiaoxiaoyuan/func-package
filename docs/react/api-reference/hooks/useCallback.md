@@ -37,9 +37,7 @@ export function useCallback<T>(callback: T, deps: Array<mixed> | void | null): T
 - 把 **内联回调函数** 及 **依赖项数组** 作为参数传入 `useCallback`，它将返回该回调函数的 `memoized` 版本，该 **回调函数仅在某个依赖项改变时才会更新**。当你把回调函数传递给经过优化的并使用 **引用相等性** 去避免非必要渲染（例如 `shouldComponentUpdate`）的子组件时，它将非常有用。
 - `useCallback(fn, deps)` 相当于 `useMemo(() => fn, deps)`。
 
-代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-usecallback/index.tsx" />
 
 ⚠️ **注意**：
 

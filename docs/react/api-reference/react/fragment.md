@@ -37,7 +37,9 @@ const App = () => {
 
 代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-fragment" />
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-fragment/index.tsx" /> -->
+
+
 
 `key` 是唯一可以传递给 `React.Fragment` 的属性。在将来，可能增加额外的属性支持，比如事件处理。
 

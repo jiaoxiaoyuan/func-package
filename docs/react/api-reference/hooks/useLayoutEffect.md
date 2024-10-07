@@ -34,7 +34,7 @@ export function useLayoutEffect(
 
 `useLayoutEffect` 相比 `useEffect`，通过同步执行状态更新可解决一些特性场景下的页面闪烁问题。
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-uselayouteffect/index.tsx" />
+
 
 说明：
 

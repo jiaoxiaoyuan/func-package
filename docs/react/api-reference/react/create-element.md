@@ -28,6 +28,7 @@ React.createElement(type, [props], [...children]);
 - `props`：选填，表示 `props` 属性，例如 `'className'`
 - `chuldren`：选填，子节点，例如要显示的文本内容
 
-代码示例：
 
-<code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-createelement" />
+
+<!-- <code src="https://tsejx.github.io/react-guidebook/~demos/react-guidebook-createelement" /> -->
+
