@@ -470,3 +470,269 @@ console.log(jumpStairs(10)) // 输出：89
   const k = 4
   console.log(findKSmallestNumbersWithMaxHeap(nums, k)) // 输出：[1, 2, 3, 4]
   ```
+
+
+## 二叉树遍历-递归
+
+```js
+前序
+function DLR(tree){
+    console.log(tree.value);
+    if(tree.left){
+        DLR(tree.left);
+    }
+    if(tree.right){
+        DLR(tree.right);
+    }
+}
+//中序后序只是换一下顺序而已
+```
+
+
+## 二叉树遍历-非递归
+
+```js
+//前序
+var preorderTraversal = function(root) {
+    var stack = [];
+    var res = [];
+    var p = root;
+    if(root == null)return [];
+    while(stack.length!=0 || p!=null){
+        while(p!=null){
+            stack.push(p);
+            res.push(p.val);
+            p = p.left;
+        }
+        if(stack.length!=0){
+            p = stack.pop();
+            p = p.right;
+        }
+    }
+    return res;
+}
+//中序
+var inorderTraversal = function(root) {
+  var stack = [];
+  var res = [];
+  var p = root;
+  if(root == null) return [];
+  while( stack.length!=0 || p!=null){
+      while(p!=null){
+          stack.push(p);
+          p = p.left;
+      }
+      if(stack.length!=0){
+          p= stack.pop();
+          res.push(p.val);
+          p = p.right;
+      }
+  }
+  return res;
+}
+//后序
+var postorderTraversal = function(root) {
+    var Stack = [];
+    var result = [];
+    if(root==null)
+        return [];
+    Stack.push(root);
+    while(Stack.length!=0)
+    {
+      var node= Stack.pop();
+        result.push(node.val);
+        if(node.left)
+        Stack.push(node.left);
+        if(node.right)
+        Stack.push(node.right);
+    }
+    return result.reverse();
+}
+```
+
+
+## 二叉树层序遍历
+
+```js
+var levelOrder = function(root) {
+    var res = []
+    var level = 0
+    function BFS(node,level){
+        if(node){
+            if(!res[level]){
+                res[level] = []
+            }
+            res[level].push(node.val)
+            level+=1
+            BFS(node.left,level)
+            BFS(node.right,level)
+        }
+    }
+    BFS(root,level)
+    return res
+};
+```
+
+
+## 二分查找
+
+非递归版
+
+```js
+function binary_search(arr,key){
+    let low = 0,high = arr.length-1
+    while(low<=high){
+        var mid = parseInt((low+high)/2)
+        if(key===arr[mid]){
+            return mid
+        }else if(key>arr[mid]){
+            low = mid+1
+        }else if(key<arr[mid]){
+            high = mid-1
+        }else{
+            return -1
+        }
+    }
+}
+```
+
+递归版
+
+```js
+function binary_search(arr,low,high,key){
+    if(low>high){
+        return -1
+    }
+    var mid = parseInt((high+low)/2)
+    if(arr[mid]==key){
+        return arr[mid]
+    }else if(key>arr[mid]){
+        low = mid+1
+        return binary_search(arr,low,high,key)
+    }else if(key<arr[mid]){
+        high = mid-1
+        return binary_search(arr,low,high,key)
+    }
+}
+```
+
+## 广度优先遍历
+
+```js
+//3.广度优先遍历的递归写法
+function wideTraversal(node){
+    let nodes=[],i=0;
+    if(node!=null){
+        nodes.push(node);
+        wideTraversal(node.nextElementSibling);
+        node=nodes[i++];
+        wideTraversal(node.firstElementChild);
+    }
+    return nodes;
+}
+
+//4.广度优先遍历的非递归写法
+function wideTraversal(node){
+    let nodes=[],i=0;
+    while(node!=null){
+        nodes.push(node);
+        node=nodes[i++];
+        let childrens=node.children;
+        for(let i=0;i<childrens.length;i++){
+            nodes.push(childrens[i]);
+        }
+    }
+    return nodes;
+}
+```
+
+## 归并排序
+
+```js
+function mergeSort(arr){
+    let len = arr.length
+    if(len>1){
+        let index = Math.floor(len/2)
+        let left = arr.slice(0,index)
+        let right = arr.slice(index)
+        return merge(mergeSort(left),mergeSort(right))
+    }else{
+        return arr
+    }
+}
+function merge(left,right){
+    let arr = []
+    while(left.length && right.length){
+        if(left[0]<right[0]){
+            arr.push(left.shift())
+        }else{
+            arr.push(right.shift())
+        }
+    }
+    return arr.concat(left,right)
+}
+```
+
+## 快排
+
+```js
+function quickSort(arr) {
+    if (arr.length === 0) return arr
+    sort(arr, 0, arr.length - 1)
+    return arr
+}
+
+function sort(arr, left, right) {
+    if (left > right) return
+    let base = arr[left]
+    let i = left,
+        j = right
+    while (i !== j) {
+        while (i < j && arr[j] >= base) j--
+        while (i < j && arr[i] <= base) i++
+        if (i < j) {
+            let temp = arr[i]
+            arr[i] = arr[j]
+            arr[j] = temp
+        }
+    }
+    arr[left] = arr[i]
+    arr[i] = base
+    sort(arr, left, i - 1)
+    sort(arr, i + 1, right)
+}
+console.log(quickSort([5, 4, 1, 2, 3]));
+```
+
+## 深度优先遍历
+```js
+//1.深度优先遍历的递归写法
+function deepTraversal(node){
+    let nodes=[];
+    if(node!=null){
+        nodes.push(node);
+        let childrens=node.children;
+        for(let i=0;i<childrens.length;i++)
+            deepTraversal(childrens[i]);
+    }
+    return nodes;
+}
+
+//2.深度优先遍历的非递归写法
+function deepTraversal(node){
+    let nodes=[];
+    if(node!=null){
+        let stack=[];//同来存放将来要访问的节点
+        stack.push(node);
+        while(stack.length!=0){
+            let item=stack.pop();//正在访问的节点
+            nodes.push(item);
+            let childrens=item.children;
+            for(let i=childrens.length-1;i>=0;i--)//将现在访问点的节点的子节点存入stack，供将来访问
+                stack.push(childrens[i]);
+        }
+    }
+    return nodes;
+}
+```
+

@@ -18,6 +18,7 @@
         "dev": "export NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
         "docs": "export NODE_OPTIONS=--openssl-legacy-provider && dumi build",
         "build:docs": "export NODE_OPTIONS=--openssl-legacy-provider && rm -rf dist.tar.gz dist || true && dumi build && tar czvf dist.tar.gz funct-dist",
+        "build:dist": "rm -rf dist.tar.gz dist || true && dumi build && tar czvf dist.tar.gz funct-dist",
         "build": "father-build",
         "release": "npm run build && npm publish --access public",
         "prebuild": "rm -rf dist.tar.gz dist || true",

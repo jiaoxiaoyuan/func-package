@@ -28,10 +28,10 @@ features:
     title: 资产数据化能力
     desc: 一行命令将组件资产数据化，标准化的资产数据可与下游生产力工具串联
     
-footer:  Copyright © 2020-present<br /> [蜀ICP备17037090号](https://beian.miit.gov.cn/#/Integrated/index)
+footer:  Copyright © 2020-Mr焦<br /> [蜀ICP备17037090号-3](https://beian.miit.gov.cn/#/Integrated/index)
 ---
 
-<table>
+<!-- <table>
 
   <tr>
     <td width="160" align="center">
@@ -160,5 +160,5 @@ footer:  Copyright © 2020-present<br /> [蜀ICP备17037090号](https://beian.mi
     </td>
     <td width="160" align="center">
     </td>
-  </tr>
-</table>
+  </tr> 
+</table>-->
