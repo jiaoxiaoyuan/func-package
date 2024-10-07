@@ -6,10 +6,9 @@ nav:
     path: /react
     order: 5
 group:
-  path: /rn
-  title: React-Native
-  order: 3
-
+    path: /rn
+    title: React-Native
+    order: 60
 ---
 
 # React-Native 样式指南

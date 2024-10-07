@@ -8,7 +8,7 @@ nav:
 group:
   path: /basicbs
   title: 基础
-  order: 1    
+  order: 50    
 ---
 
 React 备忘清单
