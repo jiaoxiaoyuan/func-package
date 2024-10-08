@@ -1,7 +1,8 @@
 ---
 nav:
-  title: 内置对象
-  order: 2
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: RegExp
   path: /text-processing/regexp/

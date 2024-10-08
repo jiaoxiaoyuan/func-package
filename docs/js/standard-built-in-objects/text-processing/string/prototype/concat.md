@@ -1,7 +1,9 @@
 ---
 nav:
-  title: 内置对象
-  order: 2
+nav:
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: String
   path: /text-processing/string/
