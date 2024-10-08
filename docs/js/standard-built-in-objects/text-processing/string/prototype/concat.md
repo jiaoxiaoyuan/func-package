@@ -1,9 +1,8 @@
 ---
 nav:
-nav:
-    title: JavaScript
-    path: /js
-    order: 2
+  title: JavaScript
+  path: /js
+  order: 2
 group:
   title: String
   path: /text-processing/string/
