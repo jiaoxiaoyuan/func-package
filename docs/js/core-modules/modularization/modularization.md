@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
-  title: 模块化
-  order: 11
+  title:  模块化
+  order: 31
 title: 模块化
 order: 1
 ---

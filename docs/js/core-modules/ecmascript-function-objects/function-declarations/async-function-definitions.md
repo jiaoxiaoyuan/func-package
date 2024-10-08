@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: 函数声明
-  order: 6
+  order: 25
 title: 异步函数
 order: 3
 ---

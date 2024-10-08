@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: 函数调用
-  order: 8
+  order: 28
 title: 函数调用模式
 order: 2
 ---

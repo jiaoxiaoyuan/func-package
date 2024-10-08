@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: 并发模型
-  order: 5
+  order: 24
 title: 事件循环
 order: 2
 ---

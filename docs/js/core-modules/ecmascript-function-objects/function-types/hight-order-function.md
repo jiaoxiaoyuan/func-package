@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: 函数类型
-  order: 10
+  order: 30
 title: 高阶函数
 order: 6
 ---

@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: 函数内部
-  order: 9
+  order: 29
 title: 函数原型对象方法
 order: 2
 ---

@@ -1,10 +1,11 @@
 ---
 nav:
-  title: 核心模块
-  order: 3
+    title: JavaScript
+    path: /js
+    order: 2
 group:
   title: 函数参数
-  order: 7
+  order: 27
 title: 默认参数
 order: 2
 ---
