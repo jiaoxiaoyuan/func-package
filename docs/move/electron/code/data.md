@@ -6,7 +6,7 @@ nav:
 group:
   path: /Electron
   title: Electron
-  order: 6
+  order: 10
 title: 数据管理
 order: 5
 ---

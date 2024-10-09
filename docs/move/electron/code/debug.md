@@ -6,7 +6,7 @@ nav:
 group:
   path: /Electron
   title: Electron
-  order: 6
+  order: 10
 title: 调试测试
 order: 9
 ---

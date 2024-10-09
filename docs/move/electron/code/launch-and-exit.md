@@ -6,7 +6,7 @@ nav:
 group:
   path: /Electron
   title: Electron
-  order: 6
+  order: 10
 title: 生命周期
 order: 13
 ---

@@ -6,7 +6,7 @@ nav:
 group:
   path: /Electron
   title: Electron
-  order: 6
+  order: 10
 title: 发布管理
 order: 11
 ---

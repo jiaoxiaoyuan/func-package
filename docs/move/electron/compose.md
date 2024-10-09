@@ -6,7 +6,7 @@ nav:
 group:
   path: /Electron
   title: Electron
-  order: 6
+  order: 10
 title: 桌面端技术选型分析
 order: 21
 ---

@@ -8,7 +8,7 @@ nav:
 group:
   path: /pwa
   title: pwa
-  order: 7
+  order: 20
 ---
 
 

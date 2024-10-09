@@ -8,7 +8,7 @@ nav:
 group:
   path: /Electron
   title: Electron
-  order: 6
+  order: 10
 ---
 
 Electron 备忘清单
